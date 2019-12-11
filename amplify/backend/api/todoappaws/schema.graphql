@@ -1,0 +1,23 @@
+type Todo @model @aws_cognito_user_pools{
+  id: ID!
+  name: String!
+  description: String
+  image: String
+}
+
+type Tenant @model {
+  id: ID!
+  name: String! # organization name
+  description: String # optional description
+  users: [User]
+  solutions: String # optional it should be the path to solutions e.g
+}
+
+type User @model {
+  id: ID!
+  cognitoId: String! # query based info
+  name: String! # User name
+  email: String! # User email
+  role: String! # admin, designer e.t.c
+  tenant: Tenant # optional Assume that the user might belong to one tenant
+}

@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PetrosCT/TodoAwsApp.git"
+    "url": "git+https://github.com/PeteLatham-CothamTechnologies/TodoAwsWebApp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PetrosCT/TodoAwsApp/issues"
+    "url": "https://github.com/PeteLatham-CothamTechnologies/TodoAwsWebApp/issues"
   },
-  "homepage": "https://github.com/PetrosCT/TodoAwsApp#readme",
+  "homepage": "https://github.com/PeteLatham-CothamTechnologies/TodoAwsWebApp#readme",
   "browserslist": {
     "production": [
       ">0.2%",
