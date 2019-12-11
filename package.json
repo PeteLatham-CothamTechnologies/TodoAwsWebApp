@@ -1,5 +1,5 @@
 {
-  "name": "TodoAwsApp",
+  "name": "todoawsapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,7 +29,6 @@
   "bugs": {
     "url": "https://github.com/PeteLatham-CothamTechnologies/TodoAwsWebApp/issues"
   },
-  "homepage": "https://github.com/PeteLatham-CothamTechnologies/TodoAwsWebApp#readme",
   "browserslist": {
     "production": [
       ">0.2%",
